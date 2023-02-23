@@ -1,2 +1,2 @@
- Este script mapeia todos os sites que esta no IIS, acessa o diretório físico e procura pelo arquivo web.config. 
- Informa o total de sites, quantidade que está com o  status "Running" e "Stopped",  exporta um arquivo IISMap.txt onde é um compilado do conteúdo de todos os web.config dos sites. 
+ Este script foi criado em powershell. Ele foi criado com o intuito de auxiliar no mapemento de sites no IIS (Internet Information Services)
+O mesmo acessa o diretório físico dos sites e procura pelo arquivo web.config. Informa o total de sites, quantidade que está com o  status "Running" e "Stopped" e exporta um arquivo IISMap.txt onde é um compilado do conteúdo de todos os web.config encontrados no IIS.
